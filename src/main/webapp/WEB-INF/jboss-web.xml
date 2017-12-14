@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+  <context-root>/HttpHeaderAuth</context-root>
+  <security-domain>Header-Auth</security-domain>
+  <valve>
+      <class-name>com.sid.redhat.httpheaderauthenticator.HTTPAuthenticator</class-name>
+  </valve>
+</jboss-web>
